@@ -1,0 +1,7 @@
+s = input()
+t = "aeiouAEIOU"
+c = 0
+for val in s:
+    if val in t:
+        c += 1
+print(c)
